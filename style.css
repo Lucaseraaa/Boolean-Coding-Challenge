@@ -1,0 +1,74 @@
+/* Font personalizzato */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(image/background.jpg);
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+main {
+  border-radius: 15px;
+  border: solid 3px black;
+  margin: 40px 20%;
+  padding: 5% 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content div{
+  margin: 10px 0px;
+}
+
+.title{
+  text-align: center;
+  color: #00dd00;
+}
+
+.title > img{
+  width: 30%;
+  height: 30%;
+}
+
+.selezione {
+  background-color: #00dd00;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.mp{
+  color: white;
+  padding-top: 20px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.mp p{
+  font-size: 13px;
+}
+
+.mp > div{
+  height: 35px;
+  border-radius: 3px;
+}
+
+.mid-low-c{
+  background-color: #f5b453;
+  width: 35%;
+}
+
+.mid-c{
+  background-color: #1ec31e;
+  width: 65%;
+}
+
+.low-c{
+  background-color: #be4141;
+  width: 20%;
+}
